@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+message: "If you use this Agent Skill, cite this repository. Cite the original papers separately for research claims."
+title: "Evidence-informed design"
+type: software
+authors:
+  - name: "Sunwood AI Labs"
+repository-code: "https://github.com/Sunwood-ai-labs/evidence-informed-design"
+url: "https://sunwood-ai-labs.github.io/evidence-informed-design/"
+license: MIT
+keywords:
+  - agent-skills
+  - information-design
+  - visual-perception
+  - human-computer-interaction

@@ -1,0 +1,3 @@
+# Docs toolchain
+
+VitePress 1.6.4 is the latest stable version listed by npm. Its manifest currently asks for Vite 5, while `@vitejs/plugin-vue` 5.2.4 permits Vite 5 or 6. The docs package pins Vite 6.4.5 through an npm override to pick up the patched Vite 6 line while retaining the stable VitePress release. The override is deliberate and must remain paired with a clean install, production build, and generated-route check. Revisit it when a newer stable VitePress release updates its Vite dependency range.
