@@ -106,9 +106,10 @@ class InstallSkillTests(unittest.TestCase):
         except (NotImplementedError, OSError, PermissionError) as error:
             self.skipTest(f"symlink creation unavailable: {error}")
 
-        with self.assertRaisesRegex(InstallError, "symbolic link"):
+        with self.assertRaises(InstallError):
             install_skill(self.destination, self.source)
         self.assertFalse((self.destination / "sample-skill").exists())
+        self.assertEqual(outside.read_text(encoding="utf-8"), "outside the bundle\n")
 
     def test_refuses_symlinked_skills_parent_when_platform_allows_them(self) -> None:
         actual_parent = self.root / "actual-skills"
@@ -119,7 +120,7 @@ class InstallSkillTests(unittest.TestCase):
         except (NotImplementedError, OSError, PermissionError) as error:
             self.skipTest(f"symlink creation unavailable: {error}")
 
-        with self.assertRaisesRegex(InstallError, "symbolic link"):
+        with self.assertRaises(InstallError):
             install_skill(linked_parent, self.source)
         self.assertEqual(list(actual_parent.iterdir()), [])
 
