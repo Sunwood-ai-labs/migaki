@@ -6,6 +6,8 @@
 
 Use the check that matches the design question. Record the artifact, viewing conditions, action, and result so another person can understand what you verified.
 
+For the final pass, select relevant [design checklist](/guide/checklist) items and record what you observed on the finished artifact.
+
 ## Connect the question to a check
 
 1. **Name the reader’s task.** State what someone needs to find, compare, understand, or do.

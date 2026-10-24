@@ -17,6 +17,8 @@
   <a href="https://sunwood-ai-labs.github.io/evidence-informed-design/">英語のドキュメント</a> · <a href="https://sunwood-ai-labs.github.io/evidence-informed-design/ja/">日本語のドキュメント</a>
 </p>
 
+作成やレビューを始めるときは、[設計チェックリスト](https://sunwood-ai-labs.github.io/evidence-informed-design/ja/guide/checklist.html)から該当項目を選び、完成した成果物で確認します。
+
 重要な情報が見つけにくい、または情報同士の関係が分かりにくいときに使うエージェントスキルです。研究知見と設計判断を結び、提案した変更を確かめる方法まで示します。研究知見をあらゆる場面に当てはまる作風の規則には変えません。
 
 ## このスキルでできること
@@ -101,7 +103,7 @@ npm --prefix docs run docs:build
 | パス | 内容 |
 | --- | --- |
 | `SKILL.md` | 主な手順と根拠の扱い方。 |
-| `references/` | 日本語の研究ノート、出典リンク、設計確認事項。 |
+| `references/` | 日本語の研究ノート、出典リンク、設計チェックリスト。 |
 | `docs/` | 英語と日本語の実務ガイド。 |
 | `examples/` | 架空の画面を使ったレビュー例。 |
 | `agents/openai.yaml` | エージェント一覧用のメタデータ。 |

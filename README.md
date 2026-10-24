@@ -17,6 +17,8 @@
   <a href="https://sunwood-ai-labs.github.io/evidence-informed-design/">Read the published docs</a> · <a href="https://sunwood-ai-labs.github.io/evidence-informed-design/ja/">日本語ドキュメント</a>
 </p>
 
+Start with the [design checklist](https://sunwood-ai-labs.github.io/evidence-informed-design/guide/checklist.html) when creating or reviewing an artifact. Choose relevant items, then check them against the finished result.
+
 Use this agent skill when important information is hard to find or relate. It helps you connect research and design decisions, then pair each proposed change with a check. It does not turn research into universal style rules.
 
 ## What the skill does
@@ -101,7 +103,7 @@ npm --prefix docs run docs:build
 | Path | Contents |
 | --- | --- |
 | `SKILL.md` | Main workflow and evidence-handling rules. |
-| `references/` | Japanese research notes, source links, and design checks. |
+| `references/` | Japanese research notes, source links, and the design checklist. |
 | `docs/` | English and Japanese practical guides. |
 | `examples/` | Fictional, worked design reviews. |
 | `agents/openai.yaml` | Agent catalog metadata. |

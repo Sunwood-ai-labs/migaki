@@ -5,12 +5,14 @@ const github = 'https://github.com/Sunwood-ai-labs/evidence-informed-design'
 const englishNavigation = [
   { text: 'Install', link: '/guide/install' },
   { text: 'Research', link: '/guide/research' },
+  { text: 'Checklist', link: '/guide/checklist' },
   { text: 'Verification', link: '/guide/verification' },
 ]
 
 const japaneseNavigation = [
   { text: 'インストール', link: '/ja/guide/install' },
   { text: '研究と根拠', link: '/ja/guide/research' },
+  { text: 'チェックリスト', link: '/ja/guide/checklist' },
   { text: '検証', link: '/ja/guide/verification' },
 ]
 
@@ -36,6 +38,7 @@ export default defineConfig({
             items: [
               { text: 'Install the skill', link: '/guide/install' },
               { text: 'Research and scope', link: '/guide/research' },
+              { text: 'Design checklist', link: '/guide/checklist' },
               { text: 'Verify a design decision', link: '/guide/verification' },
             ],
           },
@@ -58,6 +61,7 @@ export default defineConfig({
             items: [
               { text: 'スキルをインストールする', link: '/ja/guide/install' },
               { text: '研究と根拠の範囲', link: '/ja/guide/research' },
+              { text: '設計チェックリスト', link: '/ja/guide/checklist' },
               { text: '設計判断を検証する', link: '/ja/guide/verification' },
             ],
           },
