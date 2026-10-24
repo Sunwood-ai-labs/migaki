@@ -1,7 +1,7 @@
 ---
 layout: home
 hero:
-  name: "Evidence-informed\ndesign"
+  name: "MIGAKI（ミガキ）"
   text: Review grouping, hierarchy, and visual clutter.
   tagline: Use research and design heuristics to choose one specific change, then check its result in the page, slide, document, or chart.
   actions:

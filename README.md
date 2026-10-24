@@ -1,12 +1,12 @@
 <div align="center">
   <img src="assets/logo.svg" alt="" width="112">
-  <h1>Evidence-informed design</h1>
+  <h1>MIGAKI（ミガキ）</h1>
   <p>Research-grounded reviews for interfaces, slides, documents, and charts.</p>
 </div>
 
 <p align="center">
-  <a href="https://github.com/Sunwood-ai-labs/evidence-informed-design/actions/workflows/ci.yml"><img src="https://github.com/Sunwood-ai-labs/evidence-informed-design/actions/workflows/ci.yml/badge.svg" alt="CI status"></a>
-  <a href="LICENSE"><img src="https://img.shields.io/github/license/Sunwood-ai-labs/evidence-informed-design" alt="MIT License"></a>
+  <a href="https://github.com/Sunwood-ai-labs/migaki/actions/workflows/ci.yml"><img src="https://github.com/Sunwood-ai-labs/migaki/actions/workflows/ci.yml/badge.svg" alt="CI status"></a>
+  <a href="LICENSE"><img src="https://img.shields.io/github/license/Sunwood-ai-labs/migaki" alt="MIT License"></a>
 </p>
 
 <p align="center">
@@ -14,10 +14,10 @@
 </p>
 
 <p align="center">
-  <a href="https://sunwood-ai-labs.github.io/evidence-informed-design/">Read the published docs</a> · <a href="https://sunwood-ai-labs.github.io/evidence-informed-design/ja/">日本語ドキュメント</a>
+  <a href="https://sunwood-ai-labs.github.io/migaki/">Read the published docs</a> · <a href="https://sunwood-ai-labs.github.io/migaki/ja/">日本語ドキュメント</a>
 </p>
 
-Start with the [design checklist](https://sunwood-ai-labs.github.io/evidence-informed-design/guide/checklist.html) when creating or reviewing an artifact. Choose relevant items, then check them against the finished result.
+Start with the [design checklist](https://sunwood-ai-labs.github.io/migaki/guide/checklist.html) when creating or reviewing an artifact. Choose relevant items, then check them against the finished result.
 
 Use this agent skill when important information is hard to find or relate. It helps you connect research and design decisions, then pair each proposed change with a check. It does not turn research into universal style rules.
 
@@ -51,12 +51,12 @@ The detailed research notes in `references/` are currently in Japanese. Start wi
 Use Python 3.11 or newer with [uv](https://docs.astral.sh/uv/). From the repository root, run:
 
 ```sh
-git clone https://github.com/Sunwood-ai-labs/evidence-informed-design.git
-cd evidence-informed-design
+git clone https://github.com/Sunwood-ai-labs/migaki.git
+cd migaki
 uv run scripts/install_skill.py
 ```
 
-The installer creates `evidence-informed-design` under `~/.codex/skills` by default. It copies `SKILL.md`, `agents/`, `references/`, `LICENSE`, and `NOTICE.md`. It does not copy the docs site, tests, or Git metadata.
+The installer creates `migaki` under `~/.codex/skills` by default. It copies `SKILL.md`, `agents/`, `references/`, `LICENSE`, and `NOTICE.md`. It does not copy the docs site, tests, or Git metadata. An already installed skill under its previous name can remain alongside MIGAKI. Removing that installation is your choice.
 
 To choose another skills parent directory, pass it with `--destination`. For example, in PowerShell:
 
@@ -69,10 +69,10 @@ An identical existing installation is a no-op. The installer refuses a conflicti
 
 ## Use the skill
 
-Invoke `$evidence-informed-design` and describe the reader, their task, and the constraints. Provide the screenshot, source file, or other material to review when available.
+Invoke `$migaki` and describe the reader, their task, and the constraints. Provide the screenshot, source file, or other material to review when available.
 
 ```text
-$evidence-informed-design
+$migaki
 Review this dashboard. The main task is to identify overdue accounts and their next action. Keep the reporting period, units, update time, status, and required warnings. Separate what you observe from the design hypothesis, then suggest a check for the change.
 ```
 

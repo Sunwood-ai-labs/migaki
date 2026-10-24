@@ -1,6 +1,6 @@
 import { defineConfig } from 'vitepress'
 
-const github = 'https://github.com/Sunwood-ai-labs/evidence-informed-design'
+const github = 'https://github.com/Sunwood-ai-labs/migaki'
 
 const englishNavigation = [
   { text: 'Install', link: '/guide/install' },
@@ -17,18 +17,18 @@ const japaneseNavigation = [
 ]
 
 export default defineConfig({
-  base: '/evidence-informed-design/',
-  title: 'Evidence-informed design',
+  base: '/migaki/',
+  title: 'MIGAKI（ミガキ）',
   description: 'A Codex skill for reviewing grouping, hierarchy, and visual clutter with evidence and artifact checks.',
   head: [
-    ['link', { rel: 'icon', href: '/evidence-informed-design/favicon.svg', type: 'image/svg+xml' }],
+    ['link', { rel: 'icon', href: '/migaki/favicon.svg', type: 'image/svg+xml' }],
     ['meta', { name: 'theme-color', content: '#122f3b' }],
   ],
   locales: {
     root: {
       label: 'English',
       lang: 'en-US',
-      title: 'Evidence-informed design',
+      title: 'MIGAKI（ミガキ）',
       description: 'A Codex skill for reviewing grouping, hierarchy, and visual clutter with evidence and artifact checks.',
       themeConfig: {
         nav: englishNavigation,
@@ -51,7 +51,7 @@ export default defineConfig({
     ja: {
       label: '日本語',
       lang: 'ja-JP',
-      title: '根拠に基づく情報デザイン',
+      title: 'MIGAKI（ミガキ）',
       description: '研究と経験則を設計判断に使い、成果物で確認するCodexスキルです。',
       themeConfig: {
         nav: japaneseNavigation,

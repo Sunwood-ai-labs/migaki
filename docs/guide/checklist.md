@@ -1,7 +1,7 @@
 # Design checklist
 
 <nav class="page-language" aria-label="Language">
-  <a href="/evidence-informed-design/guide/checklist.html" lang="en">English</a><span aria-hidden="true">/</span><a href="/evidence-informed-design/ja/guide/checklist.html" lang="ja">日本語</a>
+  <a href="/migaki/guide/checklist.html" lang="en">English</a><span aria-hidden="true">/</span><a href="/migaki/ja/guide/checklist.html" lang="ja">日本語</a>
 </nav>
 
 Choose the items that fit the artifact, reader, task, and constraints. These items are prompts, not a score or pass/fail threshold. Record unresolved issues and their impact.
@@ -24,15 +24,15 @@ Do not mark an item as checked if you only viewed it or an issue remains. Rechec
 ## 1. Before you create
 
 - [ ] PRE-01. Record who needs to find, decide, or do what, and in which situation. (Practical check)
-- [ ] PRE-02. Define the current task and an observable result you can check in the artifact. (Practical check)
+- [ ] PRE-02. Write the main takeaway in one short sentence and define what the reader should learn from the artifact. (Practical check)
 - [ ] PRE-03. List required information, conditions, labels, units, sources, and states. Confirm why each must remain. (Practical check)
 - [ ] PRE-04. Check the medium, display or page conditions, use constraints, and existing conventions. (Practical check)
 
 ## 2. Grouping and hierarchy
 
 - [ ] STR-01. Check that content relationships match the relationships shown by layout or shared appearance. Check possible false associations in the artifact. (Application hypothesis informed by W1923)
-- [ ] STR-02. Decide which information should be found first and which information should share the same emphasis for comparison. (Practical check)
-- [ ] STR-03. Check whether headings, labels, and order support the reader’s task and make relationships traceable. (Practical check)
+- [ ] STR-02. Decide which information should be found first and which information should share the same emphasis for comparison. Check that emphasizing the main result has not made required body text or conditions too small. (Practical check)
+- [ ] STR-03. Check whether headings, labels, and order make numeric scopes, totals and breakdowns, and completed and pending work distinguishable. (Practical check)
 - [ ] STR-04. Check whether differences in color, contrast, size, weight, or orientation compete and make the target information harder to find. (Application hypothesis informed by R2007. This does not calculate a clutter metric.)
 - [ ] STR-05. Check whether decoration and distinctive styling fit the context and help rather than hinder identification or reading. (Practical check)
 
@@ -41,15 +41,15 @@ Do not mark an item as checked if you only viewed it or an issue remains. Rechec
 - [ ] CNT-01. When simplifying the appearance, check that explanations, conditions, labels, states, and action results needed for the task remain. (Heuristic from N1994)
 - [ ] CNT-02. Check that numbers and charts show the units, period, update time, comparison conditions, legend, and source needed to interpret them. (Practical check)
 - [ ] CNT-03. Check that color is not the only way to distinguish a state or meaning. Use text or shape as well. Consult the applicable standard separately when you need a conformance decision. (Practical check)
-- [ ] CNT-04. Check that text and labels remain readable without clipping or overlap, including at larger sizes and with wrapping. (Practical check)
+- [ ] CNT-04. Check that required body text, conditions, and pending work are readable at the intended viewing size. Also check long strings, larger text, wrapping, clipping, and overlap. (Practical check)
 
 ## 4. Check the artifact
 
 - [ ] VER-01. Display the artifact in its intended medium and record the actual viewport width, page, zoom, or other conditions. (Practical check)
 - [ ] VER-02. For a before-and-after comparison, keep the content, display conditions, data, and interaction state the same. Record any condition you changed. (Practical check)
-- [ ] VER-03. Use the artifact to find information, compare values, make a decision, or try the task. Record the result. (Practical check)
+- [ ] VER-03. Try the current task on the artifact, such as finding the takeaway, comparison scope, and states needed for a decision. Record any need to search again or any mistaken interpretation. (Practical check)
 - [ ] VER-04. If the artifact has interactions, run the relevant actions and states. A screenshot alone does not confirm interaction or keyboard behavior. (Practical check)
-- [ ] VER-05. Check for clipping, overlap, false associations, and missing information. Keep unchecked display conditions marked as unverified. (Practical check)
+- [ ] VER-05. If information is unreadable, hard to find, or ambiguously related, revise the composition and recheck under the same viewing conditions. Do not solve overcrowding by shrinking required text. Keep untested conditions marked as unverified. (Practical check)
 
 ## 5. Record and report issues
 
@@ -107,4 +107,4 @@ Copy the fields you need for each item. Keep observations, proposed changes, evi
 - “Practical check” labels a review method, not an evidence type. Record the result of an observation or trial in the result field. Evidence types are research findings, heuristics, application hypotheses, or practical judgments with no named source.
 - This checklist is not a validated scale or a standards-conformance test. Do not add up its items to create a quality score or pass/fail result.
 
-See [Research and scope](/guide/research) for the source notes. The [Japanese source checklist](https://github.com/Sunwood-ai-labs/evidence-informed-design/blob/main/references/design-checklist.md) contains the stable IDs and full record template.
+See [Research and scope](/guide/research) for the source notes. The [Japanese source checklist](https://github.com/Sunwood-ai-labs/migaki/blob/main/references/design-checklist.md) contains the stable IDs and full record template.

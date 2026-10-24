@@ -1,12 +1,14 @@
 # 設計判断を検証する
 
 <nav class="page-language" aria-label="言語">
-  <a href="/evidence-informed-design/guide/verification.html" lang="en">English</a><span aria-hidden="true">/</span><a href="/evidence-informed-design/ja/guide/verification.html" lang="ja">日本語</a>
+  <a href="/migaki/guide/verification.html" lang="en">English</a><span aria-hidden="true">/</span><a href="/migaki/ja/guide/verification.html" lang="ja">日本語</a>
 </nav>
 
 設計上の問いに合う方法で確認します。成果物、表示条件、操作、結果を記録すると、別の人も確認した範囲を把握できます。
 
 最後は[設計チェックリスト](/ja/guide/checklist)から該当項目を選び、完成した成果物で実際に確認した内容を記録します。
+
+本文や条件が読みにくい場合は、[読み取りを確かめて組み直す手順](https://github.com/Sunwood-ai-labs/migaki/blob/main/references/readability-review.md)を使います。数値の集計範囲、未完了事項、利用時の表示サイズを確認し、構成を直した後も同じ条件で見直します。
 
 ## 問いに合わせて確認する
 
@@ -41,4 +43,4 @@
 
 表示を確認した場合は「表示確認」と記します。対象利用者が課題を試した場合に限り、「ユーザー評価」と呼びます。測定方法を示さず、クラッタースコア、読解時間の改善、誤りの減少を報告しないでください。
 
-[研究と根拠の範囲](/ja/guide/research)では、それぞれの出典がどの判断を支えられるかを説明します。リポジトリの[設計と検証の手順](https://github.com/Sunwood-ai-labs/evidence-informed-design/blob/main/references/design-decisions.md)には、ほかの例があります。
+[研究と根拠の範囲](/ja/guide/research)では、それぞれの出典がどの判断を支えられるかを説明します。リポジトリの[設計と検証の手順](https://github.com/Sunwood-ai-labs/migaki/blob/main/references/design-decisions.md)には、ほかの例があります。

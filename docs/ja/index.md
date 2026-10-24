@@ -1,7 +1,7 @@
 ---
 layout: home
 hero:
-  name: "根拠に基づく\n情報デザイン"
+  name: "MIGAKI（ミガキ）"
   text: 読み手の課題に合わせて、情報のまとまりと強調を整えます。
   tagline: 研究と経験則を設計判断に使い、実際の成果物で確かめるCodexスキルです。
   actions:

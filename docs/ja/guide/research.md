@@ -1,7 +1,7 @@
 # 研究と根拠の範囲
 
 <nav class="page-language" aria-label="言語">
-  <a href="/evidence-informed-design/guide/research.html" lang="en">English</a><span aria-hidden="true">/</span><a href="/evidence-informed-design/ja/guide/research.html" lang="ja">日本語</a>
+  <a href="/migaki/guide/research.html" lang="en">English</a><span aria-hidden="true">/</span><a href="/migaki/ja/guide/research.html" lang="ja">日本語</a>
 </nav>
 
 このスキルは、視覚的なまとまりや点検の判断に4つの出典を使います。出典は同じ方法で調べられたものではなく、支持できる主張も異なります。現代の画面に応用する前に、各出典が扱った範囲を確認してください。
@@ -43,8 +43,8 @@
 
 詳細な調査資料は日本語でリポジトリにあります。方法、閲覧範囲、原典の該当箇所、結果、推論の限界を記録しています。
 
-- [根拠の対応表](https://github.com/Sunwood-ai-labs/evidence-informed-design/blob/main/references/evidence-map.md)
-- [Wertheimerの調査ノート](https://github.com/Sunwood-ai-labs/evidence-informed-design/blob/main/references/wertheimer.md)
-- [NielsenとRosenholtzの調査ノート](https://github.com/Sunwood-ai-labs/evidence-informed-design/blob/main/references/nielsen-rosenholtz.md)
-- [Tuchの調査ノート](https://github.com/Sunwood-ai-labs/evidence-informed-design/blob/main/references/tuch.md)
-- [設計と検証の手順](https://github.com/Sunwood-ai-labs/evidence-informed-design/blob/main/references/design-decisions.md)
+- [根拠の対応表](https://github.com/Sunwood-ai-labs/migaki/blob/main/references/evidence-map.md)
+- [Wertheimerの調査ノート](https://github.com/Sunwood-ai-labs/migaki/blob/main/references/wertheimer.md)
+- [NielsenとRosenholtzの調査ノート](https://github.com/Sunwood-ai-labs/migaki/blob/main/references/nielsen-rosenholtz.md)
+- [Tuchの調査ノート](https://github.com/Sunwood-ai-labs/migaki/blob/main/references/tuch.md)
+- [設計と検証の手順](https://github.com/Sunwood-ai-labs/migaki/blob/main/references/design-decisions.md)

@@ -1,12 +1,12 @@
 <div align="center">
   <img src="assets/logo.svg" alt="" width="112">
-  <h1>根拠に基づく情報デザイン</h1>
+  <h1>MIGAKI（ミガキ）</h1>
   <p>インターフェース、スライド、文書、図表を研究知見に基づいてレビューします。</p>
 </div>
 
 <p align="center">
-  <a href="https://github.com/Sunwood-ai-labs/evidence-informed-design/actions/workflows/ci.yml"><img src="https://github.com/Sunwood-ai-labs/evidence-informed-design/actions/workflows/ci.yml/badge.svg" alt="CIの状態"></a>
-  <a href="LICENSE"><img src="https://img.shields.io/github/license/Sunwood-ai-labs/evidence-informed-design" alt="MITライセンス"></a>
+  <a href="https://github.com/Sunwood-ai-labs/migaki/actions/workflows/ci.yml"><img src="https://github.com/Sunwood-ai-labs/migaki/actions/workflows/ci.yml/badge.svg" alt="CIの状態"></a>
+  <a href="LICENSE"><img src="https://img.shields.io/github/license/Sunwood-ai-labs/migaki" alt="MITライセンス"></a>
 </p>
 
 <p align="center">
@@ -14,10 +14,10 @@
 </p>
 
 <p align="center">
-  <a href="https://sunwood-ai-labs.github.io/evidence-informed-design/">英語のドキュメント</a> · <a href="https://sunwood-ai-labs.github.io/evidence-informed-design/ja/">日本語のドキュメント</a>
+  <a href="https://sunwood-ai-labs.github.io/migaki/">英語のドキュメント</a> · <a href="https://sunwood-ai-labs.github.io/migaki/ja/">日本語のドキュメント</a>
 </p>
 
-作成やレビューを始めるときは、[設計チェックリスト](https://sunwood-ai-labs.github.io/evidence-informed-design/ja/guide/checklist.html)から該当項目を選び、完成した成果物で確認します。
+作成やレビューを始めるときは、[設計チェックリスト](https://sunwood-ai-labs.github.io/migaki/ja/guide/checklist.html)から該当項目を選び、完成した成果物で確認します。
 
 重要な情報が見つけにくい、または情報同士の関係が分かりにくいときに使うエージェントスキルです。研究知見と設計判断を結び、提案した変更を確かめる方法まで示します。研究知見をあらゆる場面に当てはまる作風の規則には変えません。
 
@@ -51,12 +51,12 @@ Webインターフェース、スライド、文書、図表のレビューや�
 Python 3.11以降と[uv](https://docs.astral.sh/uv/)を使います。リポジトリのルートで次を実行してください。
 
 ```sh
-git clone https://github.com/Sunwood-ai-labs/evidence-informed-design.git
-cd evidence-informed-design
+git clone https://github.com/Sunwood-ai-labs/migaki.git
+cd migaki
 uv run scripts/install_skill.py
 ```
 
-既定では `~/.codex/skills` の下に `evidence-informed-design` を作成します。インストーラーは `SKILL.md`、`agents/`、`references/`、`LICENSE`、`NOTICE.md` をコピーします。
+既定では `~/.codex/skills` の下に `migaki` を作成します。インストーラーは `SKILL.md`、`agents/`、`references/`、`LICENSE`、`NOTICE.md` をコピーします。以前の名前でインストール済みのスキルはMIGAKIと併用できます。旧版を削除するかどうかは利用者が選べます。
 
 別のスキル格納先を指定する場合は `--destination` に親ディレクトリを渡します。PowerShellでは次のように指定できます。
 
@@ -69,10 +69,10 @@ uv run scripts/install_skill.py --destination $skillsParent
 
 ## スキルを使う
 
-`$evidence-informed-design` を呼び出し、読み手、課題、制約を説明してください。可能であれば、レビューするスクリーンショットや元ファイルも渡します。
+`$migaki` を呼び出し、読み手、課題、制約を説明してください。可能であれば、レビューするスクリーンショットや元ファイルも渡します。
 
 ```text
-$evidence-informed-design
+$migaki
 このダッシュボードをレビューしてください。主な課題は、期限を過ぎたアカウントと次の対応を見つけることです。対象期間、単位、更新時刻、状態、必要な警告は残してください。観察した内容と設計上の仮説を分け、変更を確かめる方法も提案してください。
 ```
 

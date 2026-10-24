@@ -1,7 +1,7 @@
 # Research and scope
 
 <nav class="page-language" aria-label="Language">
-  <a href="/evidence-informed-design/guide/research.html" lang="en">English</a><span aria-hidden="true">/</span><a href="/evidence-informed-design/ja/guide/research.html" lang="ja">日本語</a>
+  <a href="/migaki/guide/research.html" lang="en">English</a><span aria-hidden="true">/</span><a href="/migaki/ja/guide/research.html" lang="ja">日本語</a>
 </nav>
 
 The skill uses four source areas to inform visual organization and review. They do not share one method or support the same claims. Use the scope column before applying a finding to a modern interface.
@@ -43,8 +43,8 @@ Beauty, findability, comprehension, task success, and preference are separate ou
 
 The repository keeps detailed source notes in Japanese. The notes record methods, access limits, source locations, findings, and the boundary between evidence and design inference.
 
-- [Evidence map](https://github.com/Sunwood-ai-labs/evidence-informed-design/blob/main/references/evidence-map.md)
-- [Wertheimer source note](https://github.com/Sunwood-ai-labs/evidence-informed-design/blob/main/references/wertheimer.md)
-- [Nielsen and Rosenholtz source note](https://github.com/Sunwood-ai-labs/evidence-informed-design/blob/main/references/nielsen-rosenholtz.md)
-- [Tuch source note](https://github.com/Sunwood-ai-labs/evidence-informed-design/blob/main/references/tuch.md)
-- [Design and verification procedure](https://github.com/Sunwood-ai-labs/evidence-informed-design/blob/main/references/design-decisions.md)
+- [Evidence map](https://github.com/Sunwood-ai-labs/migaki/blob/main/references/evidence-map.md)
+- [Wertheimer source note](https://github.com/Sunwood-ai-labs/migaki/blob/main/references/wertheimer.md)
+- [Nielsen and Rosenholtz source note](https://github.com/Sunwood-ai-labs/migaki/blob/main/references/nielsen-rosenholtz.md)
+- [Tuch source note](https://github.com/Sunwood-ai-labs/migaki/blob/main/references/tuch.md)
+- [Design and verification procedure](https://github.com/Sunwood-ai-labs/migaki/blob/main/references/design-decisions.md)

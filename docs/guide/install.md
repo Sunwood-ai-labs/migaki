@@ -1,10 +1,10 @@
 # Install the skill
 
 <nav class="page-language" aria-label="Language">
-  <a href="/evidence-informed-design/guide/install.html" lang="en">English</a><span aria-hidden="true">/</span><a href="/evidence-informed-design/ja/guide/install.html" lang="ja">日本語</a>
+  <a href="/migaki/guide/install.html" lang="en">English</a><span aria-hidden="true">/</span><a href="/migaki/ja/guide/install.html" lang="ja">日本語</a>
 </nav>
 
-Install the complete skill bundle from the repository root. The installer places the skill in `~/.codex/skills/evidence-informed-design` by default and includes `SKILL.md`, `references/`, `agents/`, `LICENSE`, and `NOTICE.md`.
+Install the complete skill bundle from the repository root. The installer places the skill in `~/.codex/skills/migaki` by default and includes `SKILL.md`, `references/`, `agents/`, `LICENSE`, and `NOTICE.md`.
 
 ```powershell
 uv run scripts/install_skill.py
@@ -21,7 +21,7 @@ uv run scripts/install_skill.py --destination "C:\path\to\skills"
 Ask Codex to apply the skill to a concrete page, slide, document, or chart:
 
 ```text
-$evidence-informed-design を使って、この画面の情報のまとまりと強調を見直してください。
+$migaki を使って、この画面の情報のまとまりと強調を見直してください。
 利用者の課題、根拠の種類、変更案、実物での確認範囲を分けて報告してください。
 ```
 

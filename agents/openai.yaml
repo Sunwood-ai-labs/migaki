@@ -1,4 +1,4 @@
 interface:
-  display_name: "根拠に基づく情報デザイン"
+  display_name: "MIGAKI（ミガキ）"
   short_description: "視覚知覚とHCIの原典を使い、情報のまとまりと強調を設計・検証する"
-  default_prompt: "$evidence-informed-design を使って、目的と読み手に合う情報のまとまり・視覚的階層・装飾を設計してください。"
+  default_prompt: "$migaki を使って、目的と読み手に合う情報のまとまり・視覚的階層・装飾を設計してください。"

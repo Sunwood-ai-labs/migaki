@@ -1,12 +1,14 @@
 # Verify a design decision
 
 <nav class="page-language" aria-label="Language">
-  <a href="/evidence-informed-design/guide/verification.html" lang="en">English</a><span aria-hidden="true">/</span><a href="/evidence-informed-design/ja/guide/verification.html" lang="ja">日本語</a>
+  <a href="/migaki/guide/verification.html" lang="en">English</a><span aria-hidden="true">/</span><a href="/migaki/ja/guide/verification.html" lang="ja">日本語</a>
 </nav>
 
 Use the check that matches the design question. Record the artifact, viewing conditions, action, and result so another person can understand what you verified.
 
 For the final pass, select relevant [design checklist](/guide/checklist) items and record what you observed on the finished artifact.
+
+If required text or conditions are difficult to read, use the [readability revision workflow](https://github.com/Sunwood-ai-labs/migaki/blob/main/references/readability-review.md). It covers numeric scopes, pending work, intended viewing size, and rechecking after a composition change. The detailed workflow is in Japanese.
 
 ## Connect the question to a check
 
@@ -41,4 +43,4 @@ Use a short record such as this:
 
 Name a rendered view as a rendered-view check. Call a session a user evaluation only when intended users tried the task. Do not report a clutter score, reading-time improvement, or error reduction unless you measured it with a stated method.
 
-[Research and scope](/guide/research) links each source to the question it can support. The repository’s [design and verification procedure](https://github.com/Sunwood-ai-labs/evidence-informed-design/blob/main/references/design-decisions.md) contains more examples.
+[Research and scope](/guide/research) links each source to the question it can support. The repository’s [design and verification procedure](https://github.com/Sunwood-ai-labs/migaki/blob/main/references/design-decisions.md) contains more examples.

@@ -3,7 +3,7 @@ revision = 3
 requires-python = ">=3.11"
 
 [[package]]
-name = "evidence-informed-design-repo-tools"
+name = "migaki-repo-tools"
 version = "0.1.0"
 source = { virtual = "." }
 dependencies = [
